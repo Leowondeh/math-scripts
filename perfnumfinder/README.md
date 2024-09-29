@@ -1,0 +1,1 @@
+A script that finds perfect numbers ([Wikipedia](https://en.wikipedia.org/wiki/Perfect_number)).
