@@ -4,6 +4,8 @@ perfectNumsFound = []
 threads = []
 i = 1
 
+# A script that finds perfect numbers (https://en.wikipedia.org/wiki/Perfect_number).
+
 def main():
     global i
     os.system('clear')
