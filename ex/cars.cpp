@@ -10,14 +10,14 @@ int main()
 {
     struct car {
         char manufacturer[20];
-        int an, price;
+        int year, price;
     }cars[100], aux;
     int n, i;
     bool sortC = true;
     in>>n;
     // input
     for(i=0;i<n-1;i++) {
-        in>>cars[i].manufacturer>>cars[i].an>>cars[i].price;
+        in>>cars[i].manufacturer>>cars[i].year>>cars[i].price;
     }
     // sort
     while(sortC) {
@@ -34,7 +34,7 @@ int main()
     // output
     cout<<"In descending order:\n";
     for(i=0;i<n-1;i++) {
-        cout<<"Car "<<i+1<<": "<<cars[i].manufacturer<<", "<<cars[i].an<<", Price: $"<<cars[i].price<<"\n";
+        cout<<"Car "<<i+1<<": "<<cars[i].manufacturer<<", "<<cars[i].year<<", Price: $"<<cars[i].price<<"\n";
     }
     return 0;
 }
