@@ -33,7 +33,7 @@ int main() {
     // output
     cout << "Numbers in interval (" << x << "," << y << ")" << " which divide " << n << ":\n";
     for(int i=0; i < vectorCounter; i++) {
-        cout << divisorVector[i] << ", ";
+        cout << divisorVector[i] << " ";
     }
     
     return 0;
